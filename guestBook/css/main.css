@@ -1,0 +1,73 @@
+
+.main-image{
+ position: relative;
+ margin:0;
+ padding-left: 0;
+ margin-left: 0;
+ width:100%;
+ height:auto;
+ background-repeat: no-repeat;
+ background-position: center;
+ -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+ filter: blur(3px);
+
+}
+/* this starts the main image stylings*/
+.text{
+	position: absolute;
+	top: 43%;
+    width: 100%;
+}
+.text-secondary{
+	position: absolute;
+	top: 53%;
+	width: 100%;
+}
+.btn-register{
+	position: absolute;
+	top: 60%;
+	width: 100%;
+}
+.text-style{
+	font-family:"Times New Roman", Times, serif; 
+}
+/*end of main image stylings*/
+
+/*parallax image*/
+.parallax{
+	width: 100%;
+	height: auto;
+	padding-left: 0px;
+	position: relative;
+	background-image: url(../images/parallax/the-mountains.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+
+}
+/*end of parallax image*/
+
+/*hr bolding*/
+.my-5{
+	background-color: grey;
+}
+/*footer*/
+.footer-color{
+background-color:black;
+}
+.my-4{
+	background-color: white;
+}
+/*social media icons coloring*/
+.fa-facebook:hover,.fa-youtube:hover,.fa-instagram:hover,.fa-google-plus-g:hover,.fa-twitter:hover{
+	color: #d5d5d5;
+}
+/*registeredComments color styling*/
+.back-color{
+	background-color:grey;
+}
+.overflow{
+	overflow: hidden;
+}
+.round{
+	border-radius: 0px;
+}
