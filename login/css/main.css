@@ -1,0 +1,12 @@
+.image{
+background-image: url(../images/background/502321214.jpg);
+background-repeat: no-repeat;
+;
+
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
